@@ -10,11 +10,17 @@ public class BuildingMenuManager : MonoBehaviour
         if(economy_manager.Instance.getCash() >= 500){
             economy_manager.Instance.takeCash(500);
             // We Need to add the Build Functionality Here Lmao
-             SceneManager.LoadScene(1);
+            SceneManager.LoadScene(1);
         }
     }
     public void LoadScene(int sceneIndex)
     {
         SceneManager.LoadScene(sceneIndex);
     }
+
+    public void ReturnToGame()
+    {
+        SceneManager.LoadScene(1);
+    }
+
 }
