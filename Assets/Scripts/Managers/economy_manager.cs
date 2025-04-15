@@ -7,6 +7,9 @@ public class economy_manager : MonoBehaviour
     public static economy_manager Instance { get; private set; }
     public int cash = 0;
     // Start is called before the first frame update
+    
+    public bool buildStageCoach;
+  
     private void Awake()
     {
         if (Instance != null && Instance != this)// Implement singleton pattern (only one instance of our Manager can exist this destroys any other instances if they try to occur).

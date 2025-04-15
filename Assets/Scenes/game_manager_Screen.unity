@@ -287,6 +287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01d90359434fb7047be9c9603fe15fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stageCoach_PreFab: {fileID: 7813354492239258514, guid: 34f8fd365facd434a83062d0d13f8494, type: 3}
 --- !u!4 &582369853
 Transform:
   m_ObjectHideFlags: 0
@@ -295,7 +296,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 582369851}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2724.8894, y: 55.804565, z: -15.371097}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
