@@ -379,6 +379,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageCoach_PreFab: {fileID: 7813354492239258514, guid: 34f8fd365facd434a83062d0d13f8494, type: 3}
+  gunSmith_PreFab: {fileID: 7580206080344292771, guid: 33c88ba4b9c2af841bf3ed0e7a491c8e, type: 3}
+  nurse_PreFab: {fileID: 0}
+  stables_PreFab: {fileID: 0}
+  store_PreFab: {fileID: 0}
 --- !u!4 &556680807
 Transform:
   m_ObjectHideFlags: 0
@@ -923,6 +927,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageCoach_PreFab: {fileID: 7813354492239258514, guid: 34f8fd365facd434a83062d0d13f8494, type: 3}
+  gunSmith_PreFab: {fileID: 0}
+  nurse_PreFab: {fileID: 0}
+  stables_PreFab: {fileID: 0}
+  store_PreFab: {fileID: 0}
 --- !u!1 &1544294940
 GameObject:
   m_ObjectHideFlags: 0
@@ -1173,6 +1181,10 @@ PrefabInstance:
     - target: {fileID: 1978280121531732829, guid: 977872dc035e6c4439d71c6540048fc2, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 1022.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2206193280212801260, guid: 977872dc035e6c4439d71c6540048fc2, type: 3}
+      propertyPath: m_text
+      value: 'CASH:'
       objectReference: {fileID: 0}
     - target: {fileID: 2206193280212801260, guid: 977872dc035e6c4439d71c6540048fc2, type: 3}
       propertyPath: m_enableWordWrapping

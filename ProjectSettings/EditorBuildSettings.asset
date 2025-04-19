@@ -6,16 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/scene_0.unity
+    path: Assets/Scenes/title_screen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/scene_1.unity
+    path: Assets/Scenes/home_screen.unity
     guid: 35e345a713fc67840b9aec59320599ea
   - enabled: 1
-    path: Assets/Scenes/scene_02.unity
+    path: Assets/Scenes/saloon_interior_screen.unity
     guid: bfd984bb4891f7643b8be05d44edb73d
   - enabled: 1
-    path: Assets/Scenes/scene_3.unity
+    path: Assets/Scenes/Stage_coach_interior_screen.unity
     guid: 26e5716868976fb468796abff59958c9
   - enabled: 1
     path: Assets/Scenes/game_manager_Screen.unity

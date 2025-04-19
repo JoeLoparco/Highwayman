@@ -9,6 +9,10 @@ public class economy_manager : MonoBehaviour
     // Start is called before the first frame update
     
     public bool buildStageCoach;
+    public bool buildGunSmith;
+    public bool buildNurse;
+    public bool buildStable;
+    public bool buildStore;
   
     private void Awake()
     {
