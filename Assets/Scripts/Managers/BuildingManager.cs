@@ -22,21 +22,21 @@ public class BuildingManager : MonoBehaviour
 
         if(economy_manager.Instance.buildGunSmith){ // More will need to be added as we provide more Support for other buildings.
             Vector3 spawnPosition = new Vector3(-4, -2.9f, 0);
-            GameObject stagecoach = Instantiate(gunSmith_PreFab, spawnPosition, Quaternion.identity);
+            GameObject gunSmith = Instantiate(gunSmith_PreFab, spawnPosition, Quaternion.identity);
         }
-        
+
         if(economy_manager.Instance.buildNurse){ // More will need to be added as we provide more Support for other buildings.
-            Vector3 spawnPosition = new Vector3(4, 2.9f, 0);
-            GameObject stagecoach = Instantiate(nurse_PreFab, spawnPosition, Quaternion.identity);
+            Vector3 spawnPosition = new Vector3(5.1f, -1.9f, 0);
+            GameObject nurse = Instantiate(nurse_PreFab, spawnPosition, Quaternion.identity);
         }
         if(economy_manager.Instance.buildStable){ // More will need to be added as we provide more Support for other buildings.
-            Vector3 spawnPosition = new Vector3(4, 2.9f, 0);
-            GameObject stagecoach = Instantiate(stables_PreFab, spawnPosition, Quaternion.identity);
+            Vector3 spawnPosition = new Vector3(-5, 1.9f, 0);
+            GameObject sable = Instantiate(stables_PreFab, spawnPosition, Quaternion.identity);
         }
 
         if(economy_manager.Instance.buildStore){ // More will need to be added as we provide more Support for other buildings.
             Vector3 spawnPosition = new Vector3(4, 2.9f, 0);
-            GameObject stagecoach = Instantiate(store_PreFab, spawnPosition, Quaternion.identity);
+            GameObject store = Instantiate(store_PreFab, spawnPosition, Quaternion.identity);
         }
 
     }
