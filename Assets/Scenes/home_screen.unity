@@ -856,7 +856,6 @@ GameObject:
   - component: {fileID: 1229476386}
   - component: {fileID: 1229476385}
   - component: {fileID: 1229476384}
-  - component: {fileID: 1229476387}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -914,23 +913,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1229476387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1229476383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9af02bad42b6994995f5cd47fa17eb9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stageCoach_PreFab: {fileID: 7813354492239258514, guid: 34f8fd365facd434a83062d0d13f8494, type: 3}
-  gunSmith_PreFab: {fileID: 0}
-  nurse_PreFab: {fileID: 0}
-  stables_PreFab: {fileID: 0}
-  store_PreFab: {fileID: 0}
 --- !u!1 &1544294940
 GameObject:
   m_ObjectHideFlags: 0

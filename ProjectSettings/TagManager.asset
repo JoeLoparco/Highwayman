@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Saloon_man
+  - Stage_lady
+  - Gun_smith
   layers:
   - Default
   - TransparentFX

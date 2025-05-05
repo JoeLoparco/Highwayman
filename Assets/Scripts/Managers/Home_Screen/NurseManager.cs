@@ -8,7 +8,7 @@ public class NurseManager : MonoBehaviour
     // Load the first game scene (index 1)
     public void LoadInterior()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(6);
     }
     public void LoadScene(int sceneIndex)
     {

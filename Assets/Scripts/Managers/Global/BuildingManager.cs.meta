@@ -3,7 +3,12 @@ guid: d9af02bad42b6994995f5cd47fa17eb9
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - stageCoach_PreFab: {instanceID: 0}
+  - gunSmith_PreFab: {fileID: 7580206080344292771, guid: 33c88ba4b9c2af841bf3ed0e7a491c8e, type: 3}
+  - nurse_PreFab: {instanceID: 0}
+  - stables_PreFab: {instanceID: 0}
+  - store_PreFab: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

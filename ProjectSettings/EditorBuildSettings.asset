@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/game_manager_Screen.unity
     guid: 883e993b1b7c3ad44a7b33f06aef7dff
+  - enabled: 1
+    path: Assets/Scenes/gunSmith_interior_screen.unity
+    guid: ceb43f23305b14242afea206bf10c2a2
+  - enabled: 1
+    path: Assets/Scenes/nurse_interior_screen.unity
+    guid: a6a9f2c33246405429fcbf523edeea03
+  - enabled: 1
+    path: Assets/Scenes/stable_interior_screen.unity
+    guid: a7acc098fa1fd0d49b2da955b4e1eb18
   m_configObjects: {}

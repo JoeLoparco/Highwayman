@@ -7,7 +7,7 @@ public class GunSmithManager : MonoBehaviour
 {
     public void LoadInterior()
     {
-        SceneManager.LoadScene(3); // Note this will break rn cuase I need to add the scene the
+        SceneManager.LoadScene(5); // Note this will break rn cuase I need to add the scene the
     }
     public void LoadScene(int sceneIndex)
     {

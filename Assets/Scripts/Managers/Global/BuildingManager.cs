@@ -14,6 +14,8 @@ public class BuildingManager : MonoBehaviour
     void Start()
     {
         Debug.Log("In Start");
+        Debug.Log("GunSmith prefab: " + gunSmith_PreFab);
+        Debug.Log("GunSmith prefab: " + stageCoach_PreFab);
         //Debug.Log(buildStageCoach);
         if(economy_manager.Instance.buildStageCoach){ // More will need to be added as we provide more Support for other buildings.
             Vector3 spawnPosition = new Vector3(4, 2.9f, 0);

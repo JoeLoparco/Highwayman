@@ -9,7 +9,7 @@ public class StableManager : MonoBehaviour
     
     public void LoadInterior()
     {
-        SceneManager.LoadScene(3); // Note this will break rn cuase I need to add the scene the
+        SceneManager.LoadScene(7); // Note this will break rn cuase I need to add the scene the
     }
     public void LoadScene(int sceneIndex)
     {
