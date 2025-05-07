@@ -10,6 +10,6 @@ public class CashDisplayManager : MonoBehaviour
     
     void Update()
     {
-        cashText.text = "CASH: $" + economy_manager.Instance.getCash().ToString();
+       cashText.text = "CASH: $" + economy_manager.Instance.getCash().ToString();
     }
 }
