@@ -19,7 +19,7 @@ public class Dialogue_stage_lady : MonoBehaviour
     };
     void Start()
     {
-        if (economy_manager.Instance.buildStageCoach == true){
+        if (economy_manager.Instance.tutorialDone == true){
             lines = lines_1;
         }
         gameObject.SetActive(false);  

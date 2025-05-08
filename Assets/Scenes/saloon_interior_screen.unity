@@ -780,8 +780,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -811,7 +811,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1430,9 +1430,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1510167873}
   lines:
-  - Hello World!
-  - \gbdbd
+  - 
+  - 'Willie: Howdy partner, never seen you here before.'
+  - 'Willie: Welp since you''re around you mind helping out?'
+  - 'Willie: Bandits have been making a mess of this town, it''d mean alot if you
+    could help us.'
+  - 'Willie: Really Great! Go around back there should be some cash for you. '
+  - 'Willie: Then talk to dollie after you build the stage coach. '
   textSpeed: 0.1
+  lines_1:
+  - 'Willie: I see youve built the StageCoach Congratulations!'
+  - 'Willie: Were Still Working on some stuff lol come back later.'
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

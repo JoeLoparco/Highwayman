@@ -13,8 +13,8 @@ public class Dialogue_nurse : MonoBehaviour
     
     public string[] lines_1 = new string[] 
     {
-        "Nurse: Graaaaaa",
-        "Nurse: Bang Bang."
+        "Nurse: Want Some Extra Health?",
+        "Nurse: 200 Health for $75."
     };
     void Start()
     {

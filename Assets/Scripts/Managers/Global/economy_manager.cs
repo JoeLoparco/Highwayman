@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// This Script is started out for use of global tracking but is used for all data tracking across game screens
 public class economy_manager : MonoBehaviour
 {
     public static economy_manager Instance { get; private set; }
@@ -13,6 +13,9 @@ public class economy_manager : MonoBehaviour
     public bool buildNurse;
     public bool buildStable;
     public bool buildStore;
+    public int playerDamage = 50;
+    public int playerHealth = 100;
+    public bool tutorialDone = false;
   
     private void Awake()
     {

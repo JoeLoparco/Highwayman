@@ -5,6 +5,49 @@ using UnityEngine.SceneManagement;
 
 public class BuildingMenuManager : MonoBehaviour
 {
+    void Awake()
+    {
+        LogToFile("BuildingMenuManager Awake started");
+        
+        // Check if economy manager exists immediately
+        bool economyExists = economy_manager.Instance != null;
+        LogToFile("Economy manager exists in Awake: " + economyExists);
+        
+        LogToFile("BuildingMenuManager Awake completed");
+    }
+
+    void Start()
+    {
+        LogToFile("BuildingMenuManager Start started");
+        
+        // Check for UI elements
+        UnityEngine.UI.Button[] buttons = GetComponentsInChildren<UnityEngine.UI.Button>(true);
+        LogToFile("Found " + buttons.Length + " buttons");
+        
+        // List each button (helpful to see if they have the correct components)
+        foreach (var button in buttons)
+        {
+            LogToFile("Button: " + button.name + " has onClick listeners: " + button.onClick.GetPersistentEventCount());
+        }
+        
+        // Check for the economy manager
+        LogToFile("Economy manager exists: " + (economy_manager.Instance != null));
+        if (economy_manager.Instance != null)
+        {
+            LogToFile("Current cash: " + economy_manager.Instance.getCash());
+        }
+        
+        // Check event system
+        var eventSystem = FindObjectOfType<UnityEngine.EventSystems.EventSystem>();
+        LogToFile("Event system exists: " + (eventSystem != null));
+        
+        // Check canvas
+        var canvas = GetComponentInParent<Canvas>();
+        LogToFile("Parent canvas: " + (canvas != null ? canvas.name : "none"));
+        
+        LogToFile("BuildingMenuManager Start completed");
+    }
+
     //public Vector2 posVec = new Vector2(300,80)
     // Start is called before the first frame update
     public void BuildGunSmith(){
@@ -60,6 +103,16 @@ public class BuildingMenuManager : MonoBehaviour
     public void ReturnToGame()
     {
         SceneManager.LoadScene(1);
+    }
+
+    void LogToFile(string message)
+    {
+        try {
+            string path = Application.persistentDataPath + "/building_debug.txt";
+            System.IO.File.AppendAllText(path, "\n" + System.DateTime.Now + ": " + message);
+        } catch (System.Exception e) {
+            Debug.LogError("Failed to write log: " + e.Message);
+        }
     }
 
 }

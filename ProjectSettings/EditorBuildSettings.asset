@@ -29,4 +29,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/stable_interior_screen.unity
     guid: a7acc098fa1fd0d49b2da955b4e1eb18
+  - enabled: 1
+    path: Assets/Scenes/combat_screen.unity
+    guid: 1c1ee49def258a3498ebe04521697150
+  - enabled: 1
+    path: Assets/Scenes/postCombat_screen.unity
+    guid: 82257d49f92ab12409f8aeb0321ded8f
+  - enabled: 1
+    path: Assets/Scenes/death_screen.unity
+    guid: 13814a6ee94ba8c4c9bc7cbddbb607eb
+  - enabled: 1
+    path: Assets/Scenes/gunSmith_manager_screen.unity
+    guid: 9977af7d71e7d6749a42fe3b96b1362a
   m_configObjects: {}

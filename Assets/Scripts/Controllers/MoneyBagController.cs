@@ -10,7 +10,8 @@ public class MoneyBagController : MonoBehaviour
         Debug.Log("Collision detected with: " + collision.gameObject.name);
         if(collision.gameObject.CompareTag("Player")){
             Debug.Log("Giving Free Money!!!");
-            economy_manager.Instance.addCash(100);
+            economy_manager.Instance.addCash(500);
+            Destroy(gameObject);
         }
     }
 }

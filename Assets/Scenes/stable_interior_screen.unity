@@ -649,11 +649,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1495041626}
-  lines: []
+  lines:
+  - 'StableMan: Howdie partner!'
   textSpeed: 0.1
   lines_1:
-  - 'StableMan: Pow Pow'
-  - 'StableMan: Bang Bang.'
+  - 'StableMan: Howdie partner!'
+  - 'StableMan: Unfortunatley due to time constraints I dont do much right now.'
+  - 'StableMan: Come back later!'
 --- !u!1 &1097652014
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,8 +1017,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1046,7 +1048,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
